@@ -1,0 +1,60 @@
+.translator {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .translator textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  .translator select {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .translator button {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+
+  .translator h1 {
+    font-size: 24px;
+  }
+
+  .translator p {
+    font-size: 16px;
+  }
+
+  .translator h2 {
+    font-size: 20px;
+  }
+
+  @media (max-width: 768px) {
+    .translator textarea,
+    .translator select {
+      width: 100%;
+      margin-right: 0;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .translator textarea,
+    .translator select,
+    .translator button {
+      width: 100%;
+      margin-right: 0;
+    }
+  }

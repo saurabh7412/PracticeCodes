@@ -1,0 +1,82 @@
+/* modal.css */
+
+/* Modal container */
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #2b2b2b;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  max-width: 400px;
+  width: 30%;
+  overflow-y: auto;
+  max-width: 100%;
+  overflow-x: hidden;
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 0.0625em 0.0625em,
+            rgba(255, 255, 255, 0.25) 0px 0.125em 0.5em,
+            rgba(0, 0, 0, 0.1) 0px 0px 0px 1px inset;
+
+}
+
+/* Modal header */
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.modal-header h2 {
+  margin: 0;
+}
+
+/* Modal body */
+.modal-body {
+  padding: 10px 0;
+}
+
+/* Modal footer */
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.modal-footer button {
+  padding: 8px 20px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(35, 89, 145);
+  color: #fff;
+  cursor: pointer;
+}
+
+.modal-footer button:hover {
+  background-color: #0056b3;
+}
+
+/* modal.css */
+
+/* Select dropdown inside the modal */
+.modal-select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #703b3b;
+  border-radius: 4px;
+  background-color: #272727;
+  margin-top: 8px;
+  color: rgb(226, 226, 226);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Style for the options in the select dropdown */
+.modal-select option {
+  font-size: 16px;
+}
